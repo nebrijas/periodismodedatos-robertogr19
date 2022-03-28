@@ -16,6 +16,7 @@ Elegiremos las variables que queremos obtener. **Oros**, **platas**, **bronces**
 La escribiremos para conseguir la itneracción del usuario y que este sepa lo que le estamos mostrando. Si éste teclea **s** continuará el scrapping, si pulsa otra tecla no continuará.
 
 ## CÓDIGO EN BRUTO
+```
 from bs4 import BeautifulSoup
 import requests
 #Datos sobre los Juegos Olímpicos en 2020
@@ -44,3 +45,4 @@ if(respuesta == 's'):
 
 else:
   print('Qué lástima, y...')
+```
